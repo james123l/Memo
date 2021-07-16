@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  // 使用app组件，来自app.js
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // 获取public文件夹index.html的root容器作为react组件化开发容器
   document.getElementById('root')
 );
 
